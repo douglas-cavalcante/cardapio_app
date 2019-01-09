@@ -16,7 +16,7 @@ export default class ContactsScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Sou apenas um cotnato</Text>
+        <Text>Sou apenas um contato 991811574</Text>
       </View>
     );
   }
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: "white"
   }
 });
